@@ -1,4 +1,5 @@
-### Simple Chat Application using WebSockets
+## Simple Chat Application using WebSockets
+
 
 ![alt text](demo.gif)
 
