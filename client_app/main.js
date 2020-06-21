@@ -38,7 +38,7 @@ function create_window(){
 
 function load_page(){
 	/* Load index.html in the newly created window */
-	win.loadFile('client_app/index.html')
+	win.loadFile('index.html')
 }
 
 function enable_developer_mode(){

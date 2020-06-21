@@ -3,19 +3,37 @@
 
 ![alt text](demo.gif)
 
-#### Step 1:  Install Essential Dependencies
+## Install Server and Client 
 
-	$npm install .
-
-#### Step 2:  [ Open Terminal 1 ] Start WebSocket Server 
-    
-    $node server_app/websocket_server.js 
-
-#### Step 3:  [ Open Terminal 2 ] Start Chat Client 1
-
-	$npm start
-
-#### Step 3:  [ Open Terminal 3 ] Start Chat Client 2
+#### Step 1:  [ Open Terminal ] [ Install Server ]
 	
-    $npm start
+	$cd ./server_app 
+	$./install.sh  
+
+#### Step 2:  [ Open Terminal ] [ Install Server ]
+	
+	$cd ./client_app 
+	$./install.sh  
+
+
+
+## Run Server [ Open Terminal 1 ] 
+    
+    $cd ./server_app 
+	$./run.sh 
+
+
+
+## Run Clients
+
+#### Client 1 :  [ Open Terminal 2 ] 
+    
+    $cd ./client_app
+	$./run.sh 
+
+#### Client 2 :  [ Open Terminal 3 ] 
+    
+    $cd ./client_app
+	$./run.sh 
+
 
