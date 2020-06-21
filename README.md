@@ -5,12 +5,12 @@
 
 ## Install Server and Client 
 
-#### Step 1:  [ Open Terminal ] [ Install Server ]
+#### [ Install Server ] [ Open Terminal ] 
 	
 	$cd ./server_app 
 	$./install.sh  
 
-#### Step 2:  [ Open Terminal ] [ Install Server ]
+#### [ Install Client ] [ Open Terminal ] 
 	
 	$cd ./client_app 
 	$./install.sh  
