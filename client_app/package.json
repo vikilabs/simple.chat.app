@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "1.0.0",
   "description": "test app",
-  "main": "main.js",
+  "main": "ui_electron.js",
   "scripts": {
     "start": "electron ."
   },
